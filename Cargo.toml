@@ -6,6 +6,20 @@ edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[features]
+# default = ["medium-chunk", "medium-cell"]
+
+# small-chunk = []
+# medium-chunk = []
+# large-chunk = []
+# universe-chunk = []
+
+# small-cell = []
+# medium-cell = []
+# large-cell = []
+# universe-chunk = []
+
 [dependencies]
 bevy = { git = "https://github.com/bevyengine/bevy" }
+num-traits = "*"
 # noise = "0.6.0"
